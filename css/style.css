@@ -1,0 +1,145 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Infant');
+body {
+  background-image: url(../img/Untitled-4.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.page {
+  /*min-width: 910px;*/
+  max-width: 1200px;
+  margin: auto;
+}
+.header {
+  height: 100px;
+  max-width: 1102px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  flex-wrap: wrap;
+}
+.logo {
+  width: 500px;
+  height: 100px;
+  background-image: url(../img/logo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100px;
+  width: 196px;
+  box-sizing: border-box;
+}
+.menu1, .menu2 {
+  min-width: 198px;
+  height: 40px;
+  box-sizing: border-box;
+  margin: auto;
+}
+#brand, #cont {
+  text-decoration: none;
+  font-family: 'Cormorant Infant', serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+}
+a:link {
+  text-decoration: none;
+  color: black;
+}
+a:visited {
+  color: grey;
+}
+.wr {
+  height: 50px;
+  max-width: 1102px;
+  display: flex;
+  margin: auto;
+  padding-left: 20px;
+  padding-top: 25px;
+  text-align: center;
+  font-family: 'Cormorant Infant', serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+}
+.about {
+  width: 70%;
+  margin: auto;
+  padding: 10px;
+  font-family: 'Cormorant Infant', serif;
+  font-size: 20px;
+  font-weight: normal;
+  color: black;
+}
+p {
+  margin: 20px;
+}
+@media all and (max-width: 700px){
+.line1, .line2, .line3, .footer {
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.wr {
+ font-size: 30px;
+}
+.header {
+  height: 60px;
+  min-width: 700px;
+  display: flex;
+}
+.logo {
+  width: 300px;
+  height: 60px;
+  background-image: url(../img/logo2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.menu {
+  width: 300px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.menu1, .menu2 {
+  width: 40px;
+  height: 40px;
+}
+#brand, #cont {
+  text-decoration: none;
+  font-family: 'Cormorant Infant', serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+}
+}
+.line1, .line2, .line3 {
+  min-height: 300px;
+  display: flex;
+  justify-content: space-around;
+}
+.foto {
+  width: 300px;
+  height: 300px;
+  align-self: center;
+}
+.footer {
+  height: 50px;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  max-width: 1102px;
+  margin: auto;
+  align-items: center;
+
+}
+.copyright {
+  font-family: 'Cormorant Infant', serif;
+  font-size: 20px;
+  color: black;
+}
